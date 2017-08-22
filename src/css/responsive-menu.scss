@@ -1,0 +1,92 @@
+.responsive-menu-inner{
+	height: 100%;
+	.bars{
+		cursor: pointer;
+		.bar{
+			width: 30px;
+			border-radius: 10px;
+			height: 3px;
+			margin-bottom: 5px;
+			background: white;
+			display: block;
+			transition: all .3s ease;
+		}
+	}
+
+	.menu{
+		position: absolute;
+		bottom: -100px;
+		opacity: 0;
+		left: 0px;
+		transform: translateY(-40px);
+		background: white; 
+			transition: all .2s ease-out;
+		li:hover{
+			background: $secondary-green;
+			a{
+				color: white;
+			}
+		}
+	}
+
+}
+
+.responsive-menu{
+	position: -webkit-sticky;
+ 	position: sticky;
+	background: url("../img/lighter-menu.png");
+	z-index: 2;
+	height: 100px;
+	letter-spacing: .3em;
+	font-size: 0.688em;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	top: 0px;
+	box-shadow: 0px 5px 30px rgba(0,0,0,.5);
+ 
+
+	.brand{
+		height: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+	img{
+		height: 80%;
+		align-self: center;
+	}
+	a{
+		color: $base-green;
+	}
+
+}
+
+.responsive-logo{
+	justify-content: center !important;
+}
+
+.bar1-toggled{
+	transform: translateY(7px) rotate(45deg);
+}
+.bar3-toggled{
+	transform: translateY(-9px) rotate(-45deg);
+}
+
+.bar2-toggled{
+	transform: translateX(50px);
+	opacity: 0;
+}
+
+.hidden{
+  display: none;
+}
+.appear{
+	display: block !important;
+	transform: translateY(0px) !important;
+	opacity: 1 !important;
+}
+
+.dur{
+	-moz-animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+}

@@ -1,0 +1,24 @@
+.tooltip{
+	position: absolute;
+	background: white;
+	padding: 10px;
+	border: 1px solid #aaa;
+	color: #aaa;
+	top: 40px;
+	border-radius: 5px;
+	width: 300px;
+	transform: translateY(-80%);
+	transition: all .3s ease-out; 
+	visibility: hidden;
+	opacity: 0;
+}
+
+.isShown{
+	transform: translateY(0%);
+	visibility: visible;
+	opacity: 1;	
+}
+
+.cpf{
+	position: relative;
+}

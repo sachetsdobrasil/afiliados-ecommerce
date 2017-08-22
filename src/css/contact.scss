@@ -1,0 +1,51 @@
+section.contact{
+	.form-contact{
+		p{
+			font-size: 1.125em;
+			color: $light-gray;
+		}
+
+		form{
+			input{
+				font-size: 0.825em;
+				font-family: "Lato";
+				font-weight: 200;
+			}		
+		}
+	}
+
+	button{
+		background: $secondary-green;
+		height: 100%;
+		color: white;
+		display: block;
+		cursor: pointer;
+	    box-sizing: border-box;
+	    width: 100%;
+	    font-size: 0.825em;
+	    height: 2.4375rem;
+	    margin: 0 0 1rem;
+	    padding: 0.5rem;
+	    border-radius: 0;
+	    font-weight: normal;
+	    line-height: 1.5;
+	    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+	    &:hover{
+			background: darken($secondary-green, 10%)
+	    }
+	}
+	i.fa-phone{
+		margin-right: 10px;
+	}
+	.telephone{
+		margin-top: 30px;
+		color: $secondary-green;
+		font-family: "Lato", sans-serif;
+		font-weight: 200;
+		font-size: 1.825em;
+	}
+}
+
+.form-contact{
+	margin-top: 40px;
+}

@@ -1,0 +1,72 @@
+.footer-afiliates{
+	background: $secondary-green;
+	font-family: "Lato";
+	color: white;
+	padding: 20px;
+	img{
+		height: 120px;
+	}
+	h4{
+		font-size: 0.825em;
+		font-family: "Lato";
+		letter-spacing: .4em;
+		font-weight: 400;
+	}
+	p{
+		font-weight: 200;
+		font-size: 0.625em;
+		letter-spacing: .1em
+	}
+	.footer-info{
+		margin-top: 50px;
+	}
+
+	ul {
+		
+		li a{
+			color: white;
+			font-size: 0.825em;
+			font-weight: 200;
+			padding-left: 0px;
+			padding-bottom: 0px;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.footer-afiliates{
+	.pagamento{
+		.menu img{
+			width: 40px;
+			height: 26px;
+			margin-right: 5px;
+			margin-bottom: 5px;
+
+		}
+
+		p{
+			font-family: "Lato";
+			font-weight: 300;
+			margin-bottom: 5px;
+			margin-top: 20px;
+		}
+	}
+}
+
+.footer-afiliates{
+	.security{
+		.loja{
+			width: 130px;
+			height: 38px;
+		}
+		.secutiry-google{
+			margin-top: 10px;
+			width: 119px;
+			height: 43px;
+			background: white;
+			border-radius: 5px;
+		}
+	}
+}

@@ -1,0 +1,46 @@
+.menu-background{
+	background: url("../img/darker-menu.png");
+	a{
+		color: white;
+		font-size: 0.688em;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+.principal-menu{
+	position: -webkit-sticky;
+ 	position: sticky;
+	background: url("../img/lighter-menu.png");
+	z-index: 2;
+	height: 149px;
+	letter-spacing: .3em;
+	font-size: 0.688em;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	top: 0px;
+	box-shadow: 0px 5px 30px rgba(0,0,0,.5);
+	transition: all .2s ease-out; 
+	.brand{
+		height: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+	img{
+		height: 80%;
+		align-self: center;
+	}
+	a{
+		color: white;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	.principal-menu-inner{
+		height: 100%;
+	}
+}
+
+.little-menu{
+	height: 90px;
+}

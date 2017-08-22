@@ -1,0 +1,27 @@
+@import "~foundation-sites/scss/foundation";
+@import "~animate.css/animate.min.css";
+
+@include foundation-global-styles;
+@include foundation-xy-grid-classes;
+@include foundation-forms;
+@include foundation-menu;
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
+@include foundation-typography;
+
+@import 'colors';
+@import 'defaults';
+@import 'fonts';
+@import 'menu';
+@import 'banner'; 
+@import 'info';
+@import 'call-afiliates';
+@import 'afiliate-description';
+@import 'benefits-list';
+@import 'afiliate-exclusivity';
+@import 'discount-call';
+@import 'character';
+@import 'contact';
+@import 'footer-afiliates';
+@import 'responsive-menu';
+@import 'tooltip';

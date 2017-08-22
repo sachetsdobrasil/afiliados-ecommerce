@@ -1,0 +1,30 @@
+ .afiliate-exclusivity{
+	font-size: 1.125em;
+	font-family: "Lato", sans-serif;
+	font-weight: 200;
+	color: $light-gray;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background: url("../img/dark-green-background.png") no-repeat;
+	background-size: auto 100%;
+	background-position: 95% top;
+
+	img{
+		height: 100%;
+		width: 100%;
+	}
+ }
+
+  @media (max-width: 1183px) {
+ 	.afiliate-exclusivity{
+ 		background-position: 105%;
+ 		background-size: 40% 100%;
+ 	}
+ }
+
+  @media (max-width: 639px) {
+ 	.afiliate-exclusivity{
+ 		padding-top: 0px;
+ 		background: none;
+ 	}
+ }

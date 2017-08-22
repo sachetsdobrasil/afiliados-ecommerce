@@ -1,0 +1,26 @@
+.banner-afiliates-principal{
+	height: 612px;
+	background: url('../img/banner-afiliates-principal.png') no-repeat;
+	background-position: center center;
+	position: relative;
+	overflow: hidden;
+	.banner-inner{
+		color: $base-green;
+		position: absolute;
+		top: 5%;
+		right: 5%;
+		h3{
+			font-size: 2.375em;
+			font-family: "Lato";
+			font-weight: 400;
+			animation-delay: 1s;
+		}
+		p{
+			font-size: 1.125em;
+			animation-delay: 1.5s;
+			font-family: "Lato";
+			font-weight: 200;
+		}
+	}
+}
+

@@ -4,9 +4,16 @@ html{
 
 #estado{
 	-webkit-appearance: button;
-	color: #606060;
+	color: #7d7d7d;
+	font-size: 0.825rem;
+	&:invalid{
+		color: #cacaca;
+	}
+}
+.grid-container{
+	max-width: 85rem;
 }
 
-.grid-container{
-	max-width: 80rem;
+sup{
+	font-size: .6em;
 }

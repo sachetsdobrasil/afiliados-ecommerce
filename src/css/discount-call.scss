@@ -94,3 +94,10 @@
 		}
 	}
 }
+.link{
+	color: #606060;
+	&:hover{
+		text-decoration: underline;
+		color: $gray;
+	}
+}
